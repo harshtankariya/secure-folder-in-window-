@@ -1,0 +1,17 @@
+step 1 : open cmd as administator 
+    how open : 1 . win+s 
+               2. select cmd and click right and select open as administator 
+
+step 2 : enter this command :- 
+         1.  this command is lock your folder 
+
+            icacls "D:\demofolder" /deny Everyone:(OI)(CI)F
+
+         note :- hare demofolder is name of folder to write any folder name hare 
+               
+         2.  unlock folder command :- 
+
+            takeown /f "D:\demofolder" /r /d y
+
+          note :- hare demofolder is name of folder to write same folder name that you unlock your folder
+      
